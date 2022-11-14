@@ -1,9 +1,9 @@
 # Chuck-Norris-Encoding
-Binary with 0 and 1 is good, but binary with only 0, or almost, is even better!
+Binary with 0 and 1 is good, but binary with only 0, or almost, is even better!.
 
 A program that takes an incoming message as input and displays as output the message encoded using this method.
-Rules
 
+Rules:
 Here is the encoding principle:
 
     The input message consists of an Array of characters 0 or 1 eg. ("0010110")
@@ -13,7 +13,7 @@ Here is the encoding principle:
     - First block: it is always 0 or 00. If it is 0, then the series contains 1, if not, it contains 0
     - Second block: the number of 0 in this block is the number of bits in the series
 
-Example
+Example:
 
 Let’s take a simple example with a message "1000011", so with this method, this gives:
 
